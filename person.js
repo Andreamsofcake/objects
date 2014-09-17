@@ -22,7 +22,14 @@ var harry = new Person('Harry', 'Potter');
 var hermione = new Person('Hermione', 'Granger');
 var ron = new Person('Ron', 'Wesley');
 
+var people = [harry, hermione, ron];
+
+people.forEach(function(person) {
+  console.log(person.fullName());
+});
+
+
 console.log(tintin.fullName());
-console.log(hermione.fullName());
+
 
 
